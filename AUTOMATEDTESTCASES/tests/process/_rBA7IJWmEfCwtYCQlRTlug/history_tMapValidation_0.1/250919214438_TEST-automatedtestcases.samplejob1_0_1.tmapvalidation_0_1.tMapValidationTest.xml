@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest" time="0.611" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="ci.builder.skip" value="true"/>
+    <property name="java.class.path" value="C:\code\talend\studio\workspace\AutomatedTestCases-1516036800\AUTOMATEDTESTCASES\poms\jobs\process\samplejob1_0.1\target\test-classes;C:\code\talend\studio\workspace\AutomatedTestCases-1516036800\AUTOMATEDTESTCASES\poms\jobs\process\samplejob1_0.1\target\classes;C:\code\talend\studio\configuration\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\code\talend\studio\configuration\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\code\talend\studio\configuration\.m2\repository\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\audit-common\1.16.1\audit-common-1.16.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\audit-log4j2\1.16.1\audit-log4j2-1.16.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\crypto-utils\7.1.20\crypto-utils-7.1.20.jar;C:\code\talend\studio\configuration\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\code\talend\studio\configuration\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\code\talend\studio\configuration\.m2\repository\org\javassist\javassist\3.30.2-GA\javassist-3.30.2-GA.jar;C:\code\talend\studio\configuration\.m2\repository\org\jboss\marshalling\jboss-marshalling\2.0.12.Final\jboss-marshalling-2.0.12.Final.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\lib\job-audit\1.5\job-audit-1.5.jar;C:\code\talend\studio\configuration\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\code\talend\studio\configuration\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\code\talend\studio\configuration\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-layout-template-json\2.17.1\log4j-layout-template-json-2.17.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\logging-event-layout\1.16.1\logging-event-layout-1.16.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\libraries\org.talend.dataquality.parser\8.0.1\org.talend.dataquality.parser-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\system-routines\8.0.1\system-routines-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\system-routines-dq\8.0.1\system-routines-dq-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\metrics\talendCBP\1.1.5\talendCBP-1.1.5.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\talend_file_enhanced\1.3.1\talend_file_enhanced-1.3.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\metrics\talendagent\1.0.2\talendagent-1.0.2.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\metrics\talendboot\1.0.9\talendboot-1.0.9.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\talendcsv\1.1.0\talendcsv-1.1.0.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\lib\thashfile\3.1-20190910\thashfile-3.1-20190910.jar;C:\code\talend\studio\configuration\.m2\repository\org\example\automatedtestcases\code\routines\8.0.1\routines-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\code\talend\zulu17.48.15-ca-jdk17.0.10-win_x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\vivek\AppData\Local\Temp\surefire16394680417031151381\surefirebooter-20250919214436787_3.jar C:\Users\vivek\AppData\Local\Temp\surefire16394680417031151381 2025-09-19T21-44-36_499-jvmRun1 surefire-20250919214436787_1tmp surefire_0-20250919214436787_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\code\talend\studio\workspace\AutomatedTestCases-1516036800\AUTOMATEDTESTCASES\poms\jobs\process\samplejob1_0.1\target\test-classes;C:\code\talend\studio\workspace\AutomatedTestCases-1516036800\AUTOMATEDTESTCASES\poms\jobs\process\samplejob1_0.1\target\classes;C:\code\talend\studio\configuration\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\code\talend\studio\configuration\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\code\talend\studio\configuration\.m2\repository\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\audit-common\1.16.1\audit-common-1.16.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\audit-log4j2\1.16.1\audit-log4j2-1.16.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\crypto-utils\7.1.20\crypto-utils-7.1.20.jar;C:\code\talend\studio\configuration\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\code\talend\studio\configuration\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\code\talend\studio\configuration\.m2\repository\org\javassist\javassist\3.30.2-GA\javassist-3.30.2-GA.jar;C:\code\talend\studio\configuration\.m2\repository\org\jboss\marshalling\jboss-marshalling\2.0.12.Final\jboss-marshalling-2.0.12.Final.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\lib\job-audit\1.5\job-audit-1.5.jar;C:\code\talend\studio\configuration\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\code\talend\studio\configuration\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\code\talend\studio\configuration\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-layout-template-json\2.17.1\log4j-layout-template-json-2.17.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\daikon\logging-event-layout\1.16.1\logging-event-layout-1.16.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\libraries\org.talend.dataquality.parser\8.0.1\org.talend.dataquality.parser-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\system-routines\8.0.1\system-routines-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\system-routines-dq\8.0.1\system-routines-dq-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\metrics\talendCBP\1.1.5\talendCBP-1.1.5.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\talend_file_enhanced\1.3.1\talend_file_enhanced-1.3.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\metrics\talendagent\1.0.2\talendagent-1.0.2.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\metrics\talendboot\1.0.9\talendboot-1.0.9.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\talendcsv\1.1.0\talendcsv-1.1.0.jar;C:\code\talend\studio\configuration\.m2\repository\org\talend\components\lib\thashfile\3.1-20190910\thashfile-3.1-20190910.jar;C:\code\talend\studio\configuration\.m2\repository\org\example\automatedtestcases\code\routines\8.0.1\routines-8.0.1.jar;C:\code\talend\studio\configuration\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vivek"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\code\talend\zulu17.48.15-ca-jdk17.0.10-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\code\talend\studio\workspace\AutomatedTestCases-1516036800\AUTOMATEDTESTCASES\poms\jobs\process\samplejob1_0.1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vivek\AppData\Local\Temp\surefire16394680417031151381\surefirebooter-20250919214436787_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7-LTS"/>
+    <property name="user.name" value="vivek"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.48+15-CA"/>
+    <property name="license.path" value="C:\code\talend\studio\license"/>
+    <property name="localRepository" value="C:\code\talend\studio\configuration\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vivek\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\code\talend\studio\workspace\AutomatedTestCases-1516036800\AUTOMATEDTESTCASES\poms\jobs\process\samplejob1_0.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\code\talend\zulu17.48.15-ca-jdk17.0.10-win_x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/code/talend/zulu17.48.15-ca-jdk17.0.10-win_x64/bin/server;C:/code/talend/zulu17.48.15-ca-jdk17.0.10-win_x64/bin;C:\code\talend\zulu17.48.15-ca-jdk17.0.10-win_x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\vivek\AppData\Local\Programs\Python\Launcher\;C:\Users\vivek\AppData\Local\Microsoft\WindowsApps;C:\Users\vivek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vivek\AppData\Roaming\npm;C:\Users\vivek\go\bin;C:\Program Files\Tesseract-OCR\tesseract.exe;C:\Users\vivek\AppData\Local\Programs\Windsurf\bin;;C:\code\talend\studio;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.10+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="session.id" value="NjA2NDQ5MTc1ODM0MzQ3MjE4Nw=="/>
+  </properties>
+  <testcase name="testTest_Instance__1" classname="automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest" time="0.54">
+    <failure message="Failure=1&#10;tAssert_1:File from reference differs from input&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Failure=1
+tAssert_1:File from reference differs from input
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest.testTest_Instance__1(tMapValidationTest.java:2981)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[job tMapValidation] Files differ
+]]></system-out>
+  </testcase>
+  <testcase name="testTest_Instance__2" classname="automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest" time="0.004">
+    <failure message="Failure=1&#10;tAssert_1:File from reference differs from input&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Failure=1
+tAssert_1:File from reference differs from input
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest.testTest_Instance__2(tMapValidationTest.java:3023)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[job tMapValidation] Files differ
+]]></system-out>
+  </testcase>
+  <testcase name="testDefault" classname="automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest" time="0.005">
+    <failure message="Failure=1&#10;tAssert_1:File from reference differs from input&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Failure=1
+tAssert_1:File from reference differs from input
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at automatedtestcases.samplejob1_0_1.tmapvalidation_0_1.tMapValidationTest.testDefault(tMapValidationTest.java:2939)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[job tMapValidation] Files differ
+]]></system-out>
+  </testcase>
+</testsuite>
